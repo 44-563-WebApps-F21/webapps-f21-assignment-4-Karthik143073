@@ -26,5 +26,25 @@
 }
 
 .LANE{
-    color: violet;
+    color: blue;
+}
+table{
+    border:1px solid black;
+    padding: 30px 25px 45px;
+    margin: 25px 50px 75px 100px;
+    width:50%;
+}
+th{
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    background-color:pink;
+}
+td{
+    color:rgb(70, 51, 153);
+    border: 1px solid black;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color:pink;
 }
